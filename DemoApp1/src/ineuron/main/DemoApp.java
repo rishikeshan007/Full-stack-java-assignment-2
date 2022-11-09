@@ -13,6 +13,10 @@ public class DemoApp {
 		String name = "sachin";
 		int count = name.toUpperCase().length();
 		System.out.println("Length of string is :"+count);
+		
+		StringBuffer sb = new StringBuffer("Virat");
+		int length=sb.append("Kohli").reverse().length();
+		System.out.println(length);
 	}
 
 }
